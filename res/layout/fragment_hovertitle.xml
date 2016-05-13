@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <com.wusl.demo.hover.InnerScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@android:color/holo_red_dark" />
+
+            <com.wusl.demo.hover.TitleView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@android:color/holo_purple" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:background="@android:color/holo_green_dark" />
+        </LinearLayout>
+    </com.wusl.demo.hover.InnerScrollView>
+
+    <com.wusl.demo.hover.TitleView
+        android:id="@+id/true_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_purple"
+        android:visibility="gone" />
+
+</RelativeLayout>

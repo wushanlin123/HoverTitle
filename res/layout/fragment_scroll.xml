@@ -1,0 +1,12 @@
+<com.wusl.demo.scroll.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/white" />
+
+</com.wusl.demo.scroll.MyScrollView>
